@@ -115,3 +115,6 @@ gulp.task('cssBuild', function() {
     .pipe(gulp.dest('./build/css'))
     .pipe(browserSync.stream());
 });
+
+//run: npm install, npm install bower, npm install karma -g, npm install babel-core, gulp bower.
+//npm test to test, gulp serve to start a server
